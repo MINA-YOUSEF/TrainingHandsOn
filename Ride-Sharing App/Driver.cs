@@ -15,6 +15,7 @@ namespace Ride_Sharing_App
         public bool IsActive { get; set; }  
         public string Rating { get; set; }
         public Location CurrentLocation { get; set; }
+        public List<Feedback> Feedbacks { get; set; }
 
     }
 }
