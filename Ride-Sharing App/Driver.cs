@@ -10,7 +10,7 @@ namespace Ride_Sharing_App
     {
         public string Information {  get; set; }
         public List<Ride> RideHistory { get; set; }
-        public  Vehicle vehicle { get; set; }
+        public List<Vehicle> vehicles { get; set; }
         public Wallet DriverWallet { get; set; } =new Wallet();
         public bool IsActive { get; set; }  
         public string Rating { get; set; }
