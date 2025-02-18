@@ -12,5 +12,8 @@ namespace Ride_Sharing_App
         public double Latitude { get; set; }    
         public double Longitude { get; set; } 
 
+
+        
+
     }
 }
